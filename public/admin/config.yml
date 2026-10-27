@@ -5,8 +5,8 @@ backend:
 media_folder: "public/images"
 public_folder: "/images"
 
-site_url: https://your-site-name.netlify.app
-display_url: https://your-site-name.netlify.app
+site_url: https://imran-portfolio-dev.netlify.app
+display_url: https://imran-portfolio-dev.netlify.app
 
 collections:
   - name: "about"

@@ -1,19 +1,34 @@
 <!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-</head>
-<body>
-  <script>
-    window.CMS_MANIFEST = {
-      "config.yml": "/admin/config.yml"
-    }
-  </script>
-  <script>
-    CMS.init({ config: { backend: { name: 'git-gateway', branch: 'main' } } })
-  </script>
-</body>
-</html>
+  <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager</title>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  </head>
+  <body>
+    <script>
+      window.CMS_MANIFEST = {
+        "config.yml": "/admin/config.yml"
+      }
+    </script>
+    <script>
+      // Wait for CMS to load then init
+      function initCMS() {
+        if (window.CMS) {
+          window.CMS.init({
+            config: {
+              backend: {
+                name: 'git-gateway',
+                branch: 'main'
+              }
+            }
+          });
+        } else {
+          setTimeout(initCMS, 100);
+        }
+      }
+      initCMS();
+    </script>
+  </body>
+  </html>

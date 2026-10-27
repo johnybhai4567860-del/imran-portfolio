@@ -13,22 +13,28 @@
       }
     </script>
     <script>
-      // Wait for CMS to load then init
-      function initCMS() {
-        if (window.CMS) {
-          window.CMS.init({
-            config: {
-              backend: {
-                name: 'git-gateway',
-                branch: 'main'
+      // Proper init - wait for DOM + CMS
+      document.addEventListener('DOMContentLoaded', function() {
+        function initCMS() {
+          if (window.CMS && window.CMS.init) {
+            window.CMS.init({
+              config: {
+                backend: {
+                  name: 'git-gateway',
+                  branch: 'main'
+                }
               }
-            }
-          });
-        } else {
-          setTimeout(initCMS, 100);
+            });
+          } else if (window.CMS) {
+            // CMS loaded but init not ready
+            setTimeout(initCMS, 50);
+          } else {
+            // CMS not loaded yet
+            setTimeout(initCMS, 100);
+          }
         }
-      }
-      initCMS();
+        initCMS();
+      });
     </script>
   </body>
   </html>

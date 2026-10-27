@@ -1,0 +1,50 @@
+{
+  "intro": {
+    "paragraph1": "Digital marketer from Prayagraj with hands-on experience in social media, SEO research, content strategy and scriptwriting, plus creative design, short-form video and WordPress development.",
+    "paragraph2": "I combine audience understanding, research and storytelling with digital tools to create content that supports brand visibility and online growth. My work spans content planning, keyword research, website development, brand identity and AI-assisted creative workflows, and I keep building my skills in SEO and social media strategy."
+  },
+  "stats": [
+    { "value": "4", "label": "Accounts Managed" },
+    { "value": "4+", "label": "Real Projects" },
+    { "value": "17+", "label": "Tools Used" }
+  ],
+  "journey": [
+    {
+      "id": "present-social-media-seo",
+      "year": "Present",
+      "title": "Social Media & SEO Executive",
+      "degree": "Content, scripts, shooting, keyword research and audits",
+      "description": "Managing social media accounts end to end (content ideas, script writing, video shooting, poster making, trend finding) and doing SEO work like keyword research, audits and on-page fixes.",
+      "isHighlight": true
+    },
+    {
+      "id": "intern-vridova",
+      "year": "45 Days",
+      "title": "Social Media Intern",
+      "institution": {
+        "name": "Vridova Digital Marketing Institute",
+        "link": "https://www.instagram.com/vdmionline",
+        "tooltipDescription": "Digital marketing institute where I completed a 45-day social media internship focused on content creation and captions."
+      },
+      "degree": "Hands-on social media internship",
+      "description": "Created content and captions for social media and learned how a real digital marketing team plans, posts and tracks content.",
+      "isHighlight": false
+    },
+    {
+      "id": "course-digital-marketing",
+      "year": "Course",
+      "title": "Digital Marketing Course",
+      "degree": "Social media, SEO and ads",
+      "description": "Completed a digital marketing course covering buyer personas, Instagram SEO (caption formulas and pattern interrupts), on-page SEO, link building and DA/PA analysis.",
+      "isHighlight": false
+    },
+    {
+      "id": "education-intermediate",
+      "year": "Education",
+      "title": "Intermediate (12th) Pass Out",
+      "degree": "Prayagraj, Uttar Pradesh, India",
+      "description": "Completed Intermediate and moved into digital marketing, learning by working on real projects.",
+      "isHighlight": false
+    }
+  ]
+}

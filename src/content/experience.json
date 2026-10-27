@@ -1,0 +1,44 @@
+{
+  "experiences": [
+    {
+      "id": "vdmi-social-media-executive",
+      "role": "Social Media Executive",
+      "company": "VDMI, Vridova, Vridova Unfiltered & VDMI India",
+      "duration": "Present",
+      "description": "Managing the VDMI, Vridova, Vridova Unfiltered and VDMI India Instagram accounts: content ideas, script writing, video shooting, poster making and trend finding.",
+      "technologies": ["Instagram", "Script Writing", "Video Shooting", "CapCut", "Canva", "Trend Research"],
+      "projectLink": "https://www.instagram.com/vdmionline",
+      "companyLink": null
+    },
+    {
+      "id": "seo-executive",
+      "role": "SEO Executive",
+      "company": "Prayagraj, India",
+      "duration": "Present",
+      "description": "Doing keyword research and SEO audits, including about 100 keywords researched for Hanumatniketan, using SEMrush, SEOquake, Search Console and Google Analytics.",
+      "technologies": ["Keyword Research", "SEO Audit", "SEMrush", "SEOquake", "Search Console", "Google Analytics"],
+      "projectLink": null,
+      "companyLink": null
+    },
+    {
+      "id": "solovisuals-founder",
+      "role": "Founder, SoloVisuals",
+      "company": "SoloVisuals.in (agency in build phase)",
+      "duration": "Ongoing",
+      "description": "Building my own digital marketing agency website for services such as SEO, website development, social media marketing, branding and content. I handle WordPress, Yoast SEO, Google Search Console and hosting setup myself.",
+      "technologies": ["SEO", "WordPress", "Elementor Pro", "Astra", "Yoast SEO"],
+      "projectLink": "https://solovisuals.in",
+      "companyLink": null
+    },
+    {
+      "id": "vridova-intern",
+      "role": "Social Media Intern",
+      "company": "Vridova Digital Marketing Institute",
+      "duration": "45 Days",
+      "description": "Completed a 45-day social media internship at Vridova: researched content ideas, wrote Reels scripts, worked on video shoots and contributed to content planning and brand-promotion concepts.",
+      "technologies": ["Content Research", "Scriptwriting", "Video Shoots", "Captions"],
+      "projectLink": null,
+      "companyLink": "https://www.instagram.com/vdmionline"
+    }
+  ]
+}

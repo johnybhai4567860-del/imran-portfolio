@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "title": "Digital Marketing",
+      "skills": [
+        { "name": "Social Media Marketing" },
+        { "name": "Content Strategy" },
+        { "name": "Content Planning" },
+        { "name": "Brand Promotion" },
+        { "name": "Audience-Focused Content" },
+        { "name": "Trend Research" }
+      ]
+    },
+    {
+      "title": "SEO & Research",
+      "skills": [
+        { "name": "Keyword Research" },
+        { "name": "SEO Content Planning" },
+        { "name": "SEO Audits" },
+        { "name": "On-Page SEO" },
+        { "name": "Spreadsheet Research" },
+        { "name": "SEMrush" },
+        { "name": "SEOquake" },
+        { "name": "Google Search Console" },
+        { "name": "Google Analytics" },
+        { "name": "Yoast SEO" }
+      ]
+    },
+    {
+      "title": "Content Production",
+      "skills": [
+        { "name": "Scriptwriting" },
+        { "name": "Reels Content" },
+        { "name": "Video Shooting" },
+        { "name": "A-roll Recording" },
+        { "name": "CapCut" },
+        { "name": "Canva" },
+        { "name": "Graphic Design" },
+        { "name": "Creative Direction" },
+        { "name": "Branding" }
+      ]
+    },
+    {
+      "title": "Website Development",
+      "skills": [
+        { "name": "WordPress" },
+        { "name": "Elementor Pro" },
+        { "name": "Astra Theme" },
+        { "name": "WooCommerce" },
+        { "name": "Product Listing" },
+        { "name": "cPanel" },
+        { "name": "Page Customization" }
+      ]
+    },
+    {
+      "title": "AI & Productivity",
+      "skills": [
+        { "name": "AI-Assisted Content" },
+        { "name": "AI Tool Research" },
+        { "name": "Content Workflow Planning" },
+        { "name": "ChatGPT" },
+        { "name": "Claude" },
+        { "name": "Gemini" },
+        { "name": "Perplexity" },
+        { "name": "Grok" },
+        { "name": "Kling AI" },
+        { "name": "ElevenLabs" }
+      ]
+    },
+    {
+      "title": "Marketing Tools",
+      "skills": [
+        { "name": "Mailchimp" },
+        { "name": "ManyChat" },
+        { "name": "HubSpot" },
+        { "name": "Tag Manager" },
+        { "name": "Meta Tag Manager" }
+      ]
+    },
+    {
+      "title": "Foundational Knowledge",
+      "skills": [
+        { "name": "Google Ads" },
+        { "name": "Meta Ads" }
+      ]
+    },
+    {
+      "title": "Languages",
+      "skills": [
+        { "name": "Hindi" },
+        { "name": "English" },
+        { "name": "Urdu" }
+      ]
+    }
+  ]
+}

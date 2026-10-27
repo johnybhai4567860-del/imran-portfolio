@@ -1,0 +1,44 @@
+{
+  "moreWork": [
+    {
+      "id": "fitgul",
+      "title": "FitGul",
+      "subtitle": "Client Project / Reel Ad Scripts",
+      "description": "Wrote Hinglish reel ad scripts for FitGul, an AI nutrition-tracking app, working on the hook and structure with a professional, English-forward tone.",
+      "technologies": ["Script Writing", "Reels", "Copywriting"],
+      "liveLink": "https://fitgul.com"
+    },
+    {
+      "id": "outvix",
+      "title": "Outvix",
+      "subtitle": "Client Project / WooCommerce Store",
+      "description": "Worked on an electronics WooCommerce store built with Javax and Elementor: restored the theme header, fixed the broken logo and sorted out the cart and search icons.",
+      "technologies": ["WordPress", "WooCommerce", "Elementor"],
+      "liveLink": "https://outvix.com"
+    },
+    {
+      "id": "motolo",
+      "title": "Motolo",
+      "subtitle": "Variable Product Listing",
+      "description": "Listed products on the Motolo site as variable products, so each product has its own options and variations.",
+      "technologies": ["Product Listing", "Variable Products", "WooCommerce"],
+      "liveLink": null
+    },
+    {
+      "id": "prakritiveda",
+      "title": "Prakritiveda Wellness",
+      "subtitle": "SEO Audit Report",
+      "description": "Prepared an SEO audit in Google Sheets covering on-page, technical, off-page, content and local SEO, with a priority for every suggestion.",
+      "technologies": ["SEO Audit", "SEOquake", "Google Sheets"],
+      "liveLink": null
+    },
+    {
+      "id": "brand-creatives",
+      "title": "Brand Creatives & Trend Concepts",
+      "subtitle": "Concept Work",
+      "description": "Explored Vridova-styled visual redesigns, seasonal campaign variations and trend-based ideas, including Jio-related content and the dolphin trend. These are concepts, not client deliveries.",
+      "technologies": ["Canva", "Branding", "Typography", "Trend Research"],
+      "liveLink": null
+    }
+  ]
+}

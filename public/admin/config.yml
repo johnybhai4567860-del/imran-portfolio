@@ -1,0 +1,157 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+site_url: https://your-site-name.netlify.app
+display_url: https://your-site-name.netlify.app
+
+collections:
+  - name: "about"
+    label: "About"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "src/content/about.json"
+        fields:
+          - {label: "Paragraph 1", name: "intro.paragraph1", widget: "text"}
+          - {label: "Paragraph 2", name: "intro.paragraph2", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Value", name: "value", widget: "string"}
+              - {label: "Label", name: "label", widget: "string"}
+          - label: "Journey"
+            name: "journey"
+            widget: "list"
+            fields:
+              - {label: "Year", name: "year", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Degree", name: "degree", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Highlight", name: "isHighlight", widget: "boolean"}
+              - label: "Institution"
+                name: "institution"
+                widget: "object"
+                required: false
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+                  - {label: "Tooltip Description", name: "tooltipDescription", widget: "text"}
+
+  - name: "skills"
+    label: "Skills"
+    files:
+      - name: "skills"
+        label: "Skills & Tools"
+        file: "src/content/skills.json"
+        fields:
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - {label: "Category Title", name: "title", widget: "string"}
+              - label: "Skills"
+                name: "skills"
+                widget: "list"
+                fields:
+                  - {label: "Skill Name", name: "name", widget: "string"}
+
+  - name: "experience"
+    label: "Experience"
+    files:
+      - name: "experience"
+        label: "Experience"
+        file: "src/content/experience.json"
+        fields:
+          - label: "Experiences"
+            name: "experiences"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string", required: false}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Company", name: "company", widget: "string"}
+              - {label: "Duration", name: "duration", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - label: "Technologies"
+                name: "technologies"
+                widget: "list"
+                fields:
+                  - {label: "Tech", name: "", widget: "string"}
+              - {label: "Project Link", name: "projectLink", widget: "string", required: false}
+              - {label: "Company Link", name: "companyLink", widget: "string", required: false}
+
+  - name: "projects"
+    label: "Case Studies"
+    folder: "src/content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Status", name: "status", widget: "select", options: ["Live", "Ongoing", "Delivered", "Concept"]}
+      - {label: "Context", name: "context", widget: "text"}
+      - {label: "Objective", name: "objective", widget: "text"}
+      - {label: "My Role", name: "role", widget: "text"}
+      - label: "Process"
+        name: "process"
+        widget: "list"
+        fields:
+          - {label: "Step", name: "", widget: "string"}
+      - label: "Deliverables"
+        name: "deliverables"
+        widget: "list"
+        fields:
+          - {label: "Item", name: "", widget: "string"}
+      - {label: "Outcome", name: "outcome", widget: "text", required: false}
+      - label: "Evidence"
+        name: "evidence"
+        widget: "list"
+        fields:
+          - {label: "Label", name: "label", widget: "string"}
+          - {label: "URL", name: "href", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        fields:
+          - {label: "Tag", name: "", widget: "string"}
+
+  - name: "moreWork"
+    label: "More Work"
+    files:
+      - name: "moreWork"
+        label: "More Work"
+        file: "src/content/moreWork.json"
+        fields:
+          - label: "Projects"
+            name: "moreWork"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string", required: false}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - label: "Technologies"
+                name: "technologies"
+                widget: "list"
+                fields:
+                  - {label: "Tech", name: "", widget: "string"}
+              - {label: "Live Link", name: "liveLink", widget: "string", required: false}
+
+  - name: "contact"
+    label: "Contact"
+    files:
+      - name: "contact"
+        label: "Contact Info"
+        file: "src/content/contact.json"
+        fields:
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "WhatsApp Link", name: "whatsapp", widget: "string"}
+          - {label: "LinkedIn", name: "linkedin", widget: "string"}
+          - {label: "Instagram", name: "instagram", widget: "string"}
+          - {label: "Website", name: "website", widget: "string"}
+          - {label: "Intro Text", name: "intro", widget: "text"}

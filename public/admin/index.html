@@ -1,40 +1,11 @@
 <!doctype html>
-  <html>
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </head>
   <body>
-    <script>
-      window.CMS_MANIFEST = {
-        "config.yml": "/admin/config.yml"
-      }
-    </script>
-    <script>
-      // Proper init - wait for DOM + CMS
-      document.addEventListener('DOMContentLoaded', function() {
-        function initCMS() {
-          if (window.CMS && window.CMS.init) {
-            window.CMS.init({
-              config: {
-                backend: {
-                  name: 'git-gateway',
-                  branch: 'main'
-                }
-              }
-            });
-          } else if (window.CMS) {
-            // CMS loaded but init not ready
-            setTimeout(initCMS, 50);
-          } else {
-            // CMS not loaded yet
-            setTimeout(initCMS, 100);
-          }
-        }
-        initCMS();
-      });
-    </script>
+    <script src="https://unpkg.com/decap-cms@3.17.3/dist/decap-cms.js"></script>
   </body>
-  </html>
+</html>
